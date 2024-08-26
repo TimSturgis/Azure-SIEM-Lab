@@ -10,7 +10,7 @@ In this lab, I create a cloud based security operations center (SOC) within Micr
 <h2>Services and Utilities Used</h2>
 
 
-- <b>Microsoft Sentinal</b>
+- <b>Microsoft Sentinel</b>
 - <b>Azure Virtual Machine</b> 
 - <b>Log Analytics Workspace</b> 
 
@@ -35,7 +35,7 @@ Network settings were configured to allow remote desktop protocol (RDP) on port 
 
 <br />
 <br />
-I then deployed Microsoft Sentinel as a security information and event management (SIEM) tool and added it to the Log Analytics Workspace.  
+I then deployed Microsoft Sentinel as a cloud native security information and event management (SIEM) tool and added it to the Log Analytics Workspace.  
 <br/>
 
 ![Sentinal spun up](https://github.com/user-attachments/assets/9becb130-f0e0-40f6-992b-bea7db395ca1)
@@ -74,7 +74,7 @@ The query was then modified to still contain “system” but not contain “sys
 
 </p>
 
-The data connection rule was then used to generate alerts when login events occur. 
+The data connection rule was then used to generate alerts when successful login events occur. 
 <br/>
 
 ![creating security alert based on the query](https://github.com/user-attachments/assets/6e23b40a-a885-47a3-acbd-064f0b87eb30)
@@ -90,7 +90,7 @@ Now, the successful login rule has been created and appears in the Analytics tab
 
 </p>
 
-To test and demonstrate the alert, I signed in to the endpoint using remote desktop (RDP) to trigger an alert.
+To test and demonstrate the alert, I signed in to the endpoint using Remote Desktop Connection (RDP) to trigger an alert.
 
 ![RDP sign in 1](https://github.com/user-attachments/assets/790fc633-38d4-49f5-bb8a-4bfc20ade2d7)
 
