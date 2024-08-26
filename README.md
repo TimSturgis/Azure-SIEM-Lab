@@ -3,7 +3,7 @@
 
 
 <h2>Description</h2>
-In this lab, I create a cloud based security operations center (SOC) within Microsoft Azure. I create a resource group in Azure containing a Windows 11 Pro virtual machine, setup Sentinel and create a Log Analytics Workspace to capture event logs from the Windows endpoint. I then configure alerts to be triggered when login attempts are made and demonstrate this event.
+In this lab, I create a resource group in Azure containing a Windows virtual machine, setup Microsoft Sentinel (SIEM) and create a Log Analytics Workspace to capture event logs from the Windows endpoint. I then configure alerts to be triggered when login attempts are successful and demonstrate the incident.
 <br />
 
 
