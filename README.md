@@ -67,7 +67,7 @@ I then configured a data connection rule. The rule uses a simple query to the lo
 
 </p>
 
-The query was then modified to still contain “system” but not contain “system”, this is to avoid logging system account logins.
+The query was then modified to still contain “success” but not contain “system”, this is to avoid logging system account logins.
  <br/>
 
 ![query for events that do not contain system account log ins](https://github.com/user-attachments/assets/52397812-1c13-4b67-9d33-69f8bce73797)
